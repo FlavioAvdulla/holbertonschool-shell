@@ -1,2 +1,2 @@
 #!/bin/bash
-su - betty
+if [ "$EUID" -ne 0 ]; then
