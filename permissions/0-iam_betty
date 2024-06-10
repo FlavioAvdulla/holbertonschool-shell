@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ "$EUID" -ne 0 ]; then
+[ "$EUID" -ne 0 ]
