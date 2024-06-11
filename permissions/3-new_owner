@@ -1,3 +1,3 @@
 #!/bin/bash
 chown betty hello
-cp /tmp/3-new_owner permissions/
+cp /path/to/3-new_owner /tmp/
