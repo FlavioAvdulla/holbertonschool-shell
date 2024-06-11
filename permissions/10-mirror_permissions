@@ -1,2 +1,2 @@
 #!/bin/bash
-nano set_mode_from_olleh.sh
+chmod $mode hello
