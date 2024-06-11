@@ -1,3 +1,3 @@
 #!/bin/bash
 chown betty hello
-cp /path/to/3-new_owner /tmp/
+touch /tmp/hello
