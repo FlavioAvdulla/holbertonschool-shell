@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -a hello hello_temp
+rm hello
