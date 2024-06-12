@@ -1,3 +1,2 @@
 #!/bin/bash
-exec su b
-etty
+echo -e 'su\nbetty' > 0-iam_betty
