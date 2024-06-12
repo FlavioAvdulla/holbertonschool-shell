@@ -1,2 +1,2 @@
 #!/bin/bash
-touch betty hello
+cp -a hello hello_temp
