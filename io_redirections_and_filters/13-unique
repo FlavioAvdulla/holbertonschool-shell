@@ -1,13 +1,2 @@
 #!/bin/bash
-# Read words from input
-while read -r word; do
-    # Increment word count in associative array
-    ((words["$word"]++))
-done
-
-# Iterate over words and print those with count equal to 1
-for word in "${!words[@]}"; do
-    if ((words["$word"] == 1)); then
-        echo "$word"
-    fi
-done | sort
+sort | uniq -u
