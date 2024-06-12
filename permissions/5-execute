@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod go-w hello
+chmod 100 hello
