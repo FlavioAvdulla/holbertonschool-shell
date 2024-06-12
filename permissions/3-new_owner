@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chgrp betty hello
+mv hello hello
