@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 echo $PATH | tr ":" "\n" | grep -v "^$" | wc -l
+=======
+echo $PATH | tr ":" "\n" | wc -l
+>>>>>>> 3c8346cecb1431c6ffd46a8338be42863c26a28e
