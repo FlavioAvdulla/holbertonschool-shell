@@ -1,2 +1,2 @@
 #!/bin/bash
-(set -o posix; set) | grep -E '^[^ ]+ \(|^[_A-Z]|^[_a-z]'
+(set -o posix;set;printenv)|awk '/^\w+=/||/^[^ ]+ \(\)/'
