@@ -1,1 +1,2 @@
 #!/bin/bash
+seq 97 122|awk 'NR!=15{for(i=97;i<=122;i++){printf("%c%c\n",NR+96,i)}}'
