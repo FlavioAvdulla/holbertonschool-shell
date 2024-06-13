@@ -1,0 +1,3 @@
+#!/bin/bash
+$ ls *.c
+file1.c file2.c test.c
