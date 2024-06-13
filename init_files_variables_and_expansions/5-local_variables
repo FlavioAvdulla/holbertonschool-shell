@@ -1,2 +1,2 @@
 #!/bin/bash
-(set -o posix; set) | grep -v '^_' | grep -v '^[a-zA-Z0-9_]*[[:space:]]*()' | sort
+(set -o posix; set) | grep -E '^[^ ]+ \(|^[_A-Z]|^[_a-z]'
