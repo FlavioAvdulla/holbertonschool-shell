@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$result"
+result=$((BREATH ** LOVE)); echo "$result"
