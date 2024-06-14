@@ -10,8 +10,9 @@ In order to make this practical, a method had to be devised to protect the users
 
 This lesson will cover the following commands:
 
-    [chmod](http://linuxcommand.org/lc3_man_pages/chmod1.html) - modify file access rights
-    [su](http://linuxcommand.org/lc3_man_pages/su1.html) - temporarily become the superuser
-    [sudo](http://linuxcommand.org/lc3_man_pages/sudo8.html) - temporarily become the superuser
-    [chown](http://linuxcommand.org/lc3_man_pages/chown1.html) - change file ownership
-    [chgrp]() - change a file's group ownership
+- [chmod](http://linuxcommand.org/lc3_man_pages/chmod1.html) - modify file access rights
+- [su](http://linuxcommand.org/lc3_man_pages/su1.html) - temporarily become the superuser
+- [sudo](http://linuxcommand.org/lc3_man_pages/sudo8.html) - temporarily become the superuser
+- [chown](http://linuxcommand.org/lc3_man_pages/chown1.html) - change file ownership
+- [chgrp](http://linuxcommand.org/lc3_man_pages/chgrp1.html) - change a file's group ownership
+
