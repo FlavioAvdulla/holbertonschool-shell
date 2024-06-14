@@ -30,21 +30,22 @@ julien@ubuntu:/tmp$ ls -l lll
 julien@ubuntu:/tmp$ ./lll
 12-file_type
 lll
-julien@ubuntu:/tmp$```
+julien@ubuntu:/tmp$
+```
 
 
 man or help:
-- cd
-- ls
-- pwd
-- less
-- file
-- ln
-- cp
-- mv
-- rm
-- mkdir
-- type
-- which
-- help
-- man
+- `cd`
+- `ls`
+- `pwd`
+- `less`
+- `file`
+- `ln`
+- `cp`
+- `mv`
+- `rm`
+- `mkdir`
+- `type`
+- `which`
+- `help`
+- `man`
