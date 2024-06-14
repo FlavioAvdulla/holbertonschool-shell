@@ -27,6 +27,6 @@ As we can see, a command can have both its input and output redirected. Be aware
 ## Pipelines
 
 The most useful and powerful thing we can do with I/O redirection is to connect multiple commands together to form what are called pipelines. With pipelines, the standard output of one command is fed into the standard input of another. Here is a very useful example:
-[me@linuxbox me]$ ls -l | less
+`[me@linuxbox me]$ ls -l | less`
 
-In this example, the output of the ls command is fed into less. By using this "| less" trick, we can make any command have scrolling output.
+In this example, the output of the **ls** command is fed into less. By using this **"| less"** trick, we can make any command have scrolling output.
