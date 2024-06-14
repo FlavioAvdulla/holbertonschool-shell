@@ -1,5 +1,13 @@
 # I/O Redirection
 
+
+- What do the commands `head`, `tail`, `find`, `wc`, `sort`, `uniq`, `grep`, `tr` do
+- How to redirect standard output to a file
+- How to get standard input from a file instead of the keyboard
+- How to send the output from one program to the input of another program
+- How to combine commands and filters with redirections
+
+
 In this lesson, we will explore a powerful feature used by command line programs called input/output redirection. As we have seen, many commands such as **ls** print their output on the display. This does not have to be the case, however. By using some special notations we can redirect the output of many commands to files, devices, and even to the input of other commands.
 
 ## Standard Output
@@ -30,3 +38,9 @@ The most useful and powerful thing we can do with I/O redirection is to connect 
 `[me@linuxbox me]$ ls -l | less`
 
 In this example, the output of the **ls** command is fed into less. By using this **"| less"** trick, we can make any command have scrolling output.
+
+More Info
+
+Read your  `/etc/passwd` and `/etc/shadow` files.
+
+Note: You do not have to learn about `fmt`, `pr`, `du`, `gzip`, `tar`, `lpr`, `sed` and `awk` yet.
