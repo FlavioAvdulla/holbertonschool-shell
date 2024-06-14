@@ -23,3 +23,10 @@ In the example above, we used the [sort](http://linuxcommand.org/lc3_man_pages/s
 `[me@linuxbox me]$ sort < file_list.txt > sorted_file_list.txt`
 
 As we can see, a command can have both its input and output redirected. Be aware that the order of the redirection does not matter. The only requirement is that the redirection operators (the "<" and ">") must appear after the other options and arguments in the command.
+
+## Pipelines
+
+The most useful and powerful thing we can do with I/O redirection is to connect multiple commands together to form what are called pipelines. With pipelines, the standard output of one command is fed into the standard input of another. Here is a very useful example:
+[me@linuxbox me]$ ls -l | less
+
+In this example, the output of the ls command is fed into less. By using this "| less" trick, we can make any command have scrolling output.
