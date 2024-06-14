@@ -15,4 +15,3 @@ This lesson will cover the following commands:
 - [sudo](http://linuxcommand.org/lc3_man_pages/sudo8.html) - temporarily become the superuser
 - [chown](http://linuxcommand.org/lc3_man_pages/chown1.html) - change file ownership
 - [chgrp](http://linuxcommand.org/lc3_man_pages/chgrp1.html) - change a file's group ownership
-
